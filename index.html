@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap | Example </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Controlar la composición de la navegación en los dispositivos móviles-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h1>SiteName</h1>
+			</div>	
+			<div class="col-md-8 text-right"> <!--text-right allows go to the right side-->
+				<ul class="list-inline">
+					<li><a href="#"><div class="glyphicon glyphicon-envelope"> Newsletter</div></a></li>
+					<li><a href="#"><div class="glyphicon glyphicon-leaf"> RSS</div></a></li>
+					<li> | </li>
+					<li><form class="form-inline" role="form">
+						<div class="form-group">
+							<div class="input-group">
+								<label class="sr-only"> Email Adress</label> <!--the class is used to hide information used for screen readers.-->
+								<input type="email" class="form-control" placeholder="Enter email"></input>
+							</div>
+								<button type="submit" class="btn btn-default">Sign Up!</button> <!--Place the button outside of the div.-->
+						</div>
+					</form></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<nav class="container nav">
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="nav nav-tabs">
+					<li role="presentation" class="active"><a href="#">Books</a></li>
+					<li role="presentation"><a href="#">Magazines</a></li>
+					<li role="presentation"><a href="#">Comics</a></li>
+					<li role="presentation"><a href="#">Audio Books</a></li>
+					<li role="presentation"><a href="#">Action Figures</a></li>
+					<li role="presentation"><a href="#">Costumes</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+
+	<div class="container">
+		<div class="row line">
+<!--COMIENZA LA PRIMERA COLUMNA-->          
+            <div class="col-sm-5">
+				<article>
+					<h4 class="dark-title">A la une</h4> 
+					<p>Suterw <span class="text-muted">| pelsnf le 11/1/16</span></p> <!--Si coloco la etiqueta <lead> en vez de <p> el texto se coloca al lado de h5. text-muded permite aclarar el color del texto-->
+					<h2>Lorem Ipsun Dolor</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. Ut in elementum ligula. Ut ultricies fermentum metus. Mauris hendrerit urna tellus, sit amet porttitor felis elementum eget. Proin pulvinar a eros in ullamcorper. </p>
+		
+					<div class="row text-muted">
+						<div class="col-sm-4">
+							<div class="glyphicon glyphicon-time"></div>
+							 3 days ago
+						</div>
+						<div class="col-sm-8">
+							<div class="glyphicon glyphicon-tags"></div>
+							<strong>Tags: </strong>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem</a>
+						</div>
+					</div>
+				    <hr>
+				</article>
+			
+				
+				<article>
+					<div class="row">
+						<div class="col-sm-6">
+							<h6 class="dark-title">A la une</h6>
+						</div>
+						<div class="col-sm-6 line">
+							<a href="#"> Questo de mous</a>
+							<span class="text-muted"> peile 11/14/16</span>
+						</div>
+					</div>
+			
+
+					<h2>Culpa qui officia deserunt mollit anim id est laborum</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. Ut in elementum ligula. Ut ultricies fermentum metus. Mauris hendrerit urna tellus, sit amet porttitor felis elementum eget. Proin pulvinar a eros in ullamcorper. </p>
+					
+					<div class="row text-muted">
+						<div class="col-sm-4">
+							<div class="glyphicon glyphicon-time"></div>
+							 3 days ago
+						</div>
+						<div class="col-sm-8">
+							<div class="glyphicon glyphicon-tags"></div>
+							<strong>Tags: </strong>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem</a>
+						</div>
+					</div>
+				<hr>
+				</article>
+			
+				
+				<article>
+					<strong>Suteres</strong>
+				    <span class="text-muted">| publes le 12/24/16</span>
+				    <h2> Mollit anim id est laborum</h2>
+				    <img src="http://placehold.it/560x150">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo.</p>
+
+					<div class="row text-muted">
+						<div class="col-sm-4">
+							<div class="glyphicon glyphicon-time"></div>
+							 3 days ago
+						</div>
+						<div class="col-sm-8">
+							<div class="glyphicon glyphicon-tags"></div>
+							<strong>Tags: </strong>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem</a>
+						</div>
+					</div>
+				</article>
+			
+
+				
+				<article>
+					<strong>Suteres</strong>
+				    <span class="text-muted">| publes le 12/24/16</span>
+				    <h2>Neque porro quisquam est qui dolorem ipsum </h2>
+				    
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo.</p>
+					
+					<div class="row text-muted">
+						<div class="col-sm-4">
+							<div class="glyphicon glyphicon-time"></div>
+							 3 days ago
+						</div>
+						<div class="col-sm-8">
+							<div class="glyphicon glyphicon-tags"></div>
+							<strong>Tags: </strong>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem, </a>
+							<a href="#"> lorem</a>
+						</div>
+					</div>
+				<hr>
+				</article>	
+			</div>
+
+
+<!--COMIENZA LA SEGUNDA COLUMNA-->
+
+			<div class="col-sm-4 secondary">
+				<article class="bg-grey">
+					<h4 class="dark-title">Interviews</h4> 
+					<div class="embed-responsive embed-responsive-16by9"> <!--Incrusta el video con las correctas medidas-->
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Q9c0LB4tFVk" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<h2>Well, do ya??</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. Ut in elementum ligula. </p>
+					<div class="row text-muted">
+						<div class="col-sm-6">
+							leppsdf 12/12/12
+						</div>
+						<div class="col-sm-6">
+							<div class="glyphicon glyphicon-user"></div>
+							name of person
+
+						</div>
+					</div>
+				</article>
+				<hr>
+				
+				<article>
+					<h4 class="dark-title">Interviews</h4> 
+					<div class="media">
+						
+							<div class="media-left"><a href="#">
+						  		<img src="http://placehold.it/60x60" alt="..."></a> <!--no entiendo el motivo de que no funcione-->
+						    </div>
+						
+						<div class="media-body">
+						   	<h4 class="media-heading">Media heading</h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. </p>
+						</div>
+					</div>
+					<div class="media">
+						
+							<div class="media-left"><a href="#">
+						  		<img src="http://placehold.it/60x60" alt="..."></a> <!--no entiendo el motivo de que no funcione-->
+						    </div>
+						
+						<div class="media-body">
+						   	<h4 class="media-heading">Media heading</h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. </p>
+						</div>
+					</div>
+					<div class="media">
+						
+							<div class="media-left"><a href="#">
+						  		<img src="http://placehold.it/60x60" alt="..."></a> <!--no entiendo el motivo de que no funcione-->
+						    </div>
+						
+						<div class="media-body">
+						   	<h4 class="media-heading">Media heading</h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. </p>
+						</div>
+					</div>
+					<div class="media">
+						
+							<div class="media-left"><a href="#">
+						  		<img src="http://placehold.it/60x60" alt="..."></a> <!--no entiendo el motivo de que no funcione-->
+						    </div>
+						
+						<div class="media-body">
+						   	<h4 class="media-heading">Media heading</h4>
+						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur. </p>
+						</div>
+					</div>
+				</article>
+				<article>
+					<h2> Fil d´info</h2>
+					<a href="">Locants</a>
+					<strong>Etand, sletuds</strong> 
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur.</p>
+
+					<a href="">Locants</a>
+					<strong>Etand, sletuds</strong> 
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur.</p>
+				</article>
+				
+
+
+			</div>
+<!--COMIENZA LA 3 COLUMNA-->
+			<div class="col-sm-3 tertiary">
+				<article>
+					<h2>Terir par Experteses</h2>
+					<ul>
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>consectetur adipiscing elit.</li>
+						<li>Nam sed vehicula ante.</li>
+						<li>vitae dignissim justo.</li>
+						<li>Morbi gravida massa eu.</li>
+					</ul>
+				</article>
+				<hr>
+				<article class="bg-grey">
+					<lead>Webzine</lead>
+					<h4>WJKJWKJK</h4>
+					<p class="text-muded"> Educudas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur.</p>
+
+				</article>
+				<hr class="empty-hr">
+				<article class="bg-grey">
+					<lead>Webzine</lead>
+					<h4>WJKJWKJK</h4>
+					<img class="flex" src="http://placehold.it/400x200">
+					<p class="text-muded"> Educudas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ante, vitae dignissim justo. Morbi gravida massa eu ipsum blandit consectetur.</p>
+
+				</article>
+				<hr class="empty-hr">
+				<article class="bg-grey">
+					<lead>Webzine</lead>
+					<h4>WJKJWKJK</h4>
+					<p class="text-muded"> Educudas</p>
+					
+
+				</article>
+			</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<hr class="footer-line">
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>This is a title</h4>
+				<ul>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+					<li>ahhahhaj</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="lib/jquery-2.2.4.min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<script src="functions.js"></script>
+
+</body>
+</html>
